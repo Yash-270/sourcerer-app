@@ -13,7 +13,7 @@ class Config (
         var uuid: String = "",
         var username: String = "",
         var password: String = "",
-        var localRepos: MutableSet<LocalRepo> = mutableSetOf()
+        var localRepos: MableSet<LocalRepo> = mutableSetOf()
 ) {
     fun addRepo(repo: LocalRepo) {
         localRepos.remove(repo)  // Fields may be updated.

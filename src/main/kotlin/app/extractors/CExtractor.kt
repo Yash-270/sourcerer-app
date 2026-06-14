@@ -5,7 +5,7 @@
 package app.extractors
 
 class CExtractor : ExtractorInterface {
-    companion object {
+    compon object {
         const val LANGUAGE_NAME = Lang.C
         val importRegex = Regex("""^([^\n]*#include)\s[^\n]*""")
         val commentRegex = Regex("""^([^\n]*//)[^\n]*""")
